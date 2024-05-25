@@ -1,0 +1,19 @@
+{
+  "name": "electron-quick-start-coffeescript",
+  "version": "1.0.0",
+  "description": "A minimal Electron application written with coffeescript",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "coffee -c src && electron .",
+    "build": "coffee -c src"
+  },
+  "keywords": [],
+  "author": "Cyril John Magayaga",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "coffeescript": "^2.7.0"
+  },
+  "devDependencies": {
+    "electron": "^30.0.8"
+  }
+}
